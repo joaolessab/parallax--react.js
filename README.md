@@ -1,6 +1,6 @@
 <div align="center">
-  <h1 align='center'>WhatsApp Web Clone
-    <br/>{ Next.js 12 + Firebase 9 + Styled Components}
+  <h1 align='center'>Parallax
+    <br/>{ React.js }
   </h1>
   
   > 💬 A WhatsApp Web Clone made using Next.js 12 and Firebase 9
@@ -36,6 +36,7 @@
 - If you're facing any type of issue when watching this **Live Demo**, please email me at: **joaovitorlessa@gmail.com**;
 
 ## • What to expect
+
 ### Follow the steps as the video below:
 
 1. Login with your Google Account;
@@ -55,49 +56,23 @@
 cd app
 ```
 
-2. In the `root` folder, run this command to generate the `.env` file:
-
-```bash
-cp .env.example .env
-```
-
-3. Exchange all the sensitive variables of your project that are inside the new generated `.env` file, set your Firebase credentials (such as: `API Key`, etc);
-
-- Too see **details on how to add and configure your Firestore Database**, check all the <a href="#-extra-tips">Extra Tips</a> topics;
-
-4. Install dependencies:
+2. Install dependencies:
 
 ```bash
 $ npm i
 ```
 
-5. Run the app:
+3. Run the app:
 
 ```bash
-$ npm run dev
+$ npm start
 ```
 
-6. Access the URL: http://localhost:3000
+4. Access the URL: http://localhost:3000
 
-7. Log in with your **Google Account**
+# 🔨 Libraries Used
 
-8. Check the main page of the app, after logged:
-
-![Image](../main/docs/images/demo-1.png?raw=true)
-
-9. Log Out and Log In again with some different accounts, so all these different users can be saved into your own Firestore Database;
-
-10. After Loging In with different Users, **search for them on the Search Bar (they will not show up by default)**, because you have to start a conversation with them before;
-
-![Image](../main/docs/images/demo-2.png?raw=true)
-
-11. After the conversations started:
-
-![Image](../main/docs/images/demo-3.png?raw=true)
-
-# 🔨 Extra Tips
-
-## 1 - Adding Firebase DB to the Project - and its Config files
+## 1 - @react-spring/parallax
 
 1. Go to the [Firebase website](https://console.firebase.google.com/u/0/);
 
