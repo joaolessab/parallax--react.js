@@ -5,8 +5,8 @@ import Example from './pages/Example'
 const App = () => {
   return (
     <Routes>
-      <Route path='/' element={<Home/>}></Route>
-      <Route path='/example' element={<Example/>}></Route>
+      <Route path='/' element={<Home/>} />
+      <Route path='/example' element={<Example/>} />
     </Routes>
   )
 }
