@@ -1,13 +1,16 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import { useRef } from 'react'
 
 const Cat = () => {
+    const ref = useRef()
+
     return (
         <div
             style={{
                 backgroundColor: 'black'
             }}
         >
-            <Parallax pages={4}>
+            <Parallax pages={4} ref={ref}>
                 <ParallaxLayer
                     offset={0}
                     speed={1}
@@ -31,6 +34,7 @@ const Cat = () => {
                 <ParallaxLayer
                     offset={0.2}
                     speed={0.05}
+                    onClick={() => ref.current.scrollTo(3)}
                 >
                     <h2 style={{color: 'white'}}>Welcome to my Website</h2>
                 </ParallaxLayer>
@@ -38,6 +42,7 @@ const Cat = () => {
                 <ParallaxLayer
                     offset={3.2}
                     speed={2}
+                    onClick={() => ref.current.scrollTo(0)}
                 >
                     <h2 style={{color: 'white'}}>End of the website!</h2>
                 </ParallaxLayer>
