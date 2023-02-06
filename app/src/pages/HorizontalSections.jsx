@@ -2,6 +2,12 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import { useRef } from 'react'
 
 const IndividualPage = ({ offset, gradient, onClick }) => {
+    const getBackground = (color) => {
+        if (color === 'pink') return 'linear-gradient(to right, deeppink 0%, coral 100%)'
+        else if (color === 'teal') return 'linear-gradient(to right, SlateBlue 0%, DeepSkyBlue 100%)'
+        else return 'linear-gradient(to right, tomato 0%, gold 100%)'
+    }
+
     return (
         <>
             <ParallaxLayer offset={offset} speed={0.2} onClick={onClick}>
@@ -10,8 +16,7 @@ const IndividualPage = ({ offset, gradient, onClick }) => {
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
-                        backgroundColor: '#20232f',
-                        
+                        backgroundColor: '#20232f',                        
                         clipPath: 'polygon(20% 0, 70% 0, 50% 100%, 0% 100%)',
                         position: 'absolute',
                         width: '170%',
@@ -26,13 +31,13 @@ const IndividualPage = ({ offset, gradient, onClick }) => {
                     style={{
                         display: 'flex',
                         alignItems: 'center',
-                        justifyContent: 'center',
+                        justifyContent: 'center',         
                         clipPath: 'polygon(70% 0, 100% 0, 80% 100%, 50% 100%)',
                         position: 'absolute',
-                        widht: '170%',
+                        width: '170%',
                         height: '100%',
                         cursor: 'pointer',
-                        background: 'linear-gradient(to right, deeppink 0%, coral 100%)'
+                        background: getBackground(gradient)
                     }}
                 />
             </ParallaxLayer>
