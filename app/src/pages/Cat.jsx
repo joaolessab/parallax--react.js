@@ -5,12 +5,14 @@ const Cat = () => {
     const ref = useRef()
 
     return (
-        <div
-            style={{
-                backgroundColor: 'black'
-            }}
-        >
-            <Parallax pages={4} ref={ref}>
+        <div style={{ position: 'relative', height: '100vh' }}>
+            <Parallax
+                pages={4}
+                ref={ref} 
+                style={{
+                    backgroundColor: 'black',
+                }}
+            >
                 <ParallaxLayer
                     offset={0}
                     speed={1}
@@ -35,6 +37,7 @@ const Cat = () => {
                     offset={0.2}
                     speed={0.05}
                     onClick={() => ref.current.scrollTo(3)}
+                    style={{ textAlign: 'center' }}
                 >
                     <h2 style={{color: 'white'}}>Welcome to my Website</h2>
                 </ParallaxLayer>
@@ -43,12 +46,14 @@ const Cat = () => {
                     offset={3.2}
                     speed={2}
                     onClick={() => ref.current.scrollTo(0)}
+                    style={{ textAlign: 'center' }}
                 >
                     <h2 style={{color: 'white'}}>End of the website!</h2>
                 </ParallaxLayer>
                 
                 <ParallaxLayer
                     sticky={{ start: 0.9, end: 2.5}}
+                    style={{ textAlign: 'center' }}
                 >
                     <img src='/cat.gif' alt='' />
                 </ParallaxLayer>
