@@ -39,7 +39,9 @@ const Cat = () => {
                     onClick={() => ref.current.scrollTo(3)}
                     style={{ textAlign: 'center' }}
                 >
-                    <h2 style={{color: 'white'}}>Welcome to my Website</h2>
+                    <h2 className='headlines'>
+                        Check where this cat's going!
+                    </h2>
                 </ParallaxLayer>
 
                 <ParallaxLayer
@@ -48,7 +50,9 @@ const Cat = () => {
                     onClick={() => ref.current.scrollTo(0)}
                     style={{ textAlign: 'center' }}
                 >
-                    <h2 style={{color: 'white'}}>End of the website!</h2>
+                    <h2 className='headlines'>
+                        Just landed. Bye!
+                    </h2>
                 </ParallaxLayer>
                 
                 <ParallaxLayer
