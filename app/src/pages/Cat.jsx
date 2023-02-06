@@ -5,7 +5,7 @@ const Cat = () => {
     const ref = useRef()
 
     return (
-        <div style={{ position: 'relative', height: '100vh' }}>
+        <div>
             <Parallax
                 pages={4}
                 ref={ref} 

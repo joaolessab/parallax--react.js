@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Cat from './pages/Cat'
+import './App.css'
 
 const App = () => {
   return (
