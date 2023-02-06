@@ -48,10 +48,17 @@ const IndividualPage = ({ offset, gradient, onClick }) => {
                 style={{
                     fontSize: '300px',
                     color: '#545864',
-                    justifyContent: 'start'
+                    justifyContent: 'start !important'
                 }}
             >
-                <span>0{offset + 1}</span>
+                <span
+                    style={{
+                        display: 'inline-block',
+                        position: 'relative'
+                    }}
+                >
+                    0{offset + 1}
+                </span>
             </ParallaxLayer>
         </>
     )
