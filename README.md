@@ -1,6 +1,6 @@
 <div align="center">
-  <h1 align='center'>Project Title
-    <br/>{ Stacks of the project }
+  <h1 align='center'>Parallax
+    <br/>{ React.js }
   </h1>
   
   > 💬 Description headline
@@ -21,10 +21,12 @@
 <ul>
     <li><a href="#%EF%B8%8F-live-demo">Live Demo</a></li>
     <li><a href="#%EF%B8%8F-running-the-project">Running the Project</a></li>
-    <li><a href="#-extra-tips">Extra Tips</a></li>
+    <li><a href="#%EF%B8%8F-running-the-project">Libraries</a></li>
     <ol>
-        <li><a href="#first-text">First text</a></li>
+        <li><a href="#first-text">@react-spring/parallax (Basic)</a></li>
+        <li><a href="#first-text">react-scroll-parallax (Advanced)</a></li>
     </ol>
+    <li><a href="#-extra-tips">References</a></li>
 </ul>
 
 # 👁️ Live Demo
@@ -78,26 +80,25 @@ $ npm run dev
 
 6. Access the URL: http://localhost:3000
 
-# 🔨 Extra Tips
+# Libraries
 
-## First text
+## @react-spring/parallax (Basic)
 
-1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book;
+## react-scroll-parallax (Advanced)
 
-2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book:
+# 🔨 References
 
-![Image](../main/docs/images/image-1.png?raw=true)
-
-3. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book and **"Continue"**;
-
-4. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
-
-![Image](../main/docs/images/image-1.png?raw=true)
-
-5. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen folder `book`;
-
-6. Edit the file `./test.js`:
-
-```bash
-$ npm i firebase
-```
+https://react-scroll-parallax.damnthat.tv/docs/examples/how-it-works
+https://react-scroll-parallax-docs.netlify.app/
+https://github.com/jscottsmith/react-scroll-parallax-examples
+https://react-scroll-parallax-examples.vercel.app/
+https://react-scroll-parallax-horizontal-scroll.surge.sh/
+https://react-scroll-parallax-mountains.surge.sh/
+https://jscottsmith.github.io/react-scroll-parallax-examples/examples/parallax-test/
+https://react-scroll-parallax.netlify.app/
+https://react-scroll-parallax-v3.surge.sh/?path=/story/components-parallax-rotate-props--with-rotation
+https://react-scroll-parallax.damnthat.tv/docs/examples/scroll-effects
+https://react-scroll-parallax.damnthat.tv/docs/examples/banners
+https://react-scroll-parallax.damnthat.tv/docs/examples/advanced-banners
+https://react-scroll-parallax.damnthat.tv/docs/examples/easing
+https://react-scroll-parallax.damnthat.tv/docs/examples/horizontal-scroll

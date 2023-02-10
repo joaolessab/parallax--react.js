@@ -1,8 +1,9 @@
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
-import Cat from './pages/Cat'
-import Morty from './pages/Morty'
-import HorizontalSections from './pages/HorizontalSections'
+
+import Cat from './pages/react-scroll-parallax/Cat'
+import Morty from './pages/react-scroll-parallax/Morty'
+import HorizontalSections from './pages/react-scroll-parallax/HorizontalSections'
 import './App.css'
 
 const App = () => {
