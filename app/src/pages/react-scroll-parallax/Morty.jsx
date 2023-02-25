@@ -1,6 +1,6 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 
-const Morty = () => {    
+const Morty = () => {
     const alignCenter = { display: 'flex', alignItems: 'center' }
 
     const card = {
@@ -20,6 +20,14 @@ const Morty = () => {
                 pages={5}
                 style={{ backgroundColor: 'blue' }}
             >
+                { /* Morty Fixed object */ }
+                <ParallaxLayer
+                    sticky={{ start: 1, end: 3 }}
+                    style={{ ...alignCenter, justifyContent: 'flex-start' }}
+                >
+                    <img src='/morty-captured.gif' alt='' width='55%' />
+                </ParallaxLayer>
+
                 <ParallaxLayer
                     offset={0}
                     speed={0.5}
@@ -30,15 +38,9 @@ const Morty = () => {
                 </ParallaxLayer>
 
                 <ParallaxLayer
-                    sticky={{ start: 1, end: 3 }}
-                    style={{ ...alignCenter, justifyContent: 'flex-start' }}
-                >
-                    <img src='/morty-captured.gif' alt='' width='55%' />
-                </ParallaxLayer>
-
-                <ParallaxLayer
                     offset={1}
-                    speed={1.5}
+                    speed={0.5}
+                    factor={1}
                     style={{ ...alignCenter, justifyContent: 'flex-end', backgroundColor: 'white' }}
                 >
                     <div style={{ ...card, marginRight: '15%', backgroundColor: '#9d65d0' }}>
@@ -50,6 +52,7 @@ const Morty = () => {
                 <ParallaxLayer 
                     offset={2}
                     speed={1.5}
+                    factor={1}
                     style={{ ...alignCenter, justifyContent: 'flex-end', backgroundColor: 'black' }}
                 >
                     <div style={{ ...card, marginRight: '15%', backgroundColor: '#5b65ad' }}>
@@ -61,6 +64,7 @@ const Morty = () => {
                 <ParallaxLayer 
                     offset={3}
                     speed={1.5}
+                    factor={1}
                     style={{ ...alignCenter, justifyContent: 'flex-end', backgroundColor: 'purple' }}
                 >
                     <div style={{ ...card, marginRight: '15%', backgroundColor: '#5b9547' }}>
@@ -72,6 +76,8 @@ const Morty = () => {
                 <ParallaxLayer 
                     offset={4}
                     speed={1.5}
+                    factor={1}
+                    style={{ ...alignCenter, justifyContent: 'center', backgroundColor: 'purple' }}
                 >
                     <p>Well, Morty is safe!</p>
                 </ParallaxLayer>
