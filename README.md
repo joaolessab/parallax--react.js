@@ -21,10 +21,10 @@
 <ul>
     <li><a href="#%EF%B8%8F-live-demo">Live Demo</a></li>
     <li><a href="#%EF%B8%8F-running-the-project">Running the Project</a></li>
-    <li><a href="#%EF%B8%8F-running-the-project">Libraries</a></li>
+    <li><a href="#%EF%B8%8F-libraries">Libraries</a></li>
     <ol>
-        <li><a href="#react-springparallax-basic">@react-spring/parallax (Basic)</a></li>
-        <li><a href="#react-scroll-parallax-advanced">react-scroll-parallax (Advanced)</a></li>
+        <li><a href="#-react-springparallax-basic">@react-spring/parallax (Basic)</a></li>
+        <li><a href="#-react-scroll-parallax-advanced">react-scroll-parallax (Advanced)</a></li>
     </ol>
     <li><a href="#-references">References</a></li>
 </ul>
