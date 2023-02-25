@@ -23,10 +23,10 @@
     <li><a href="#%EF%B8%8F-running-the-project">Running the Project</a></li>
     <li><a href="#%EF%B8%8F-running-the-project">Libraries</a></li>
     <ol>
-        <li><a href="#first-text">@react-spring/parallax (Basic)</a></li>
-        <li><a href="#first-text">react-scroll-parallax (Advanced)</a></li>
+        <li><a href="#react-springparallax-basic">@react-spring/parallax (Basic)</a></li>
+        <li><a href="#react-scroll-parallax-advanced">react-scroll-parallax (Advanced)</a></li>
     </ol>
-    <li><a href="#-extra-tips">References</a></li>
+    <li><a href="#-references">References</a></li>
 </ul>
 
 # 👁️ Live Demo
@@ -56,49 +56,39 @@
 cd app
 ```
 
-2. In the `root` folder, run this command to generate the `.env` file:
-
-```bash
-cp .env.example .env
-```
-
-3. Exchange all the sensitive variables of your project that are inside the new generated `.env` file, set your Firebase credentials (such as: `API Key`, etc);
-
-- Too see **details on how to add and configure your Firestore Database**, check all the <a href="#-extra-tips">Extra Tips</a> topics;
-
-4. Install dependencies:
+2. Install dependencies:
 
 ```bash
 $ npm i
 ```
 
-5. Run the app:
+3. Run the app:
 
 ```bash
-$ npm run dev
+$ npm start
 ```
 
-6. Access the URL: http://localhost:3000
+4. Access the URL: http://localhost:3000
 
-# Libraries
+# 🪄 Libraries
 
-## @react-spring/parallax (Basic)
+## • @react-spring/parallax (Basic)
 
-## react-scroll-parallax (Advanced)
+## • react-scroll-parallax (Advanced)
 
 # 🔨 References
 
-https://react-scroll-parallax.damnthat.tv/docs/examples/how-it-works
-https://react-scroll-parallax-docs.netlify.app/
-https://github.com/jscottsmith/react-scroll-parallax-examples
-https://react-scroll-parallax-examples.vercel.app/
-https://react-scroll-parallax-horizontal-scroll.surge.sh/
-https://react-scroll-parallax-mountains.surge.sh/
-https://jscottsmith.github.io/react-scroll-parallax-examples/examples/parallax-test/
-https://react-scroll-parallax.netlify.app/
-https://react-scroll-parallax-v3.surge.sh/?path=/story/components-parallax-rotate-props--with-rotation
-https://react-scroll-parallax.damnthat.tv/docs/examples/scroll-effects
-https://react-scroll-parallax.damnthat.tv/docs/examples/banners
-https://react-scroll-parallax.damnthat.tv/docs/examples/advanced-banners
-https://react-scroll-parallax.damnthat.tv/docs/examples/easing
-https://react-scroll-parallax.damnthat.tv/docs/examples/horizontal-scroll
+- https://react-scroll-parallax.damnthat.tv/docs/examples/how-it-works
+- https://react-scroll-parallax-docs.netlify.app/
+- https://github.com/jscottsmith/react-scroll-parallax-examples
+- https://react-scroll-parallax-examples.vercel.app/
+- https://react-scroll-parallax-horizontal-scroll.surge.sh/
+- https://react-scroll-parallax-mountains.surge.sh/
+- https://jscottsmith.github.io/react-scroll-parallax-examples/examples/parallax-test/
+- https://react-scroll-parallax.netlify.app/
+- https://react-scroll-parallax-v3.surge.sh/?path=/story/components-parallax-rotate-props--with-rotation
+- https://react-scroll-parallax.damnthat.tv/docs/examples/scroll-effects
+- https://react-scroll-parallax.damnthat.tv/docs/examples/banners
+- https://react-scroll-parallax.damnthat.tv/docs/examples/advanced-banners
+- https://react-scroll-parallax.damnthat.tv/docs/examples/easing
+- https://react-scroll-parallax.damnthat.tv/docs/examples/horizontal-scroll
