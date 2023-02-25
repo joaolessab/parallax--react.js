@@ -19,7 +19,7 @@ const Cat = () => {
                     factor={2}
                     style={{
                         backgroundImage: 'url(/moon.png)',
-                        backgroundSize: 'cover',
+                        backgroundSize: 'contain',
                     }}
                 />
 
